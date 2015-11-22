@@ -1,3 +1,4 @@
+#UI Code
 shinyUI(fluidPage(
   titlePanel("Labor Force Trends"),
 #set up variable control panel
