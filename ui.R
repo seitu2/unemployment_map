@@ -39,7 +39,10 @@ shinyUI(fluidPage(
                tags$li(tags$b("Best and Worst States:")," Simple table showing States with highest and 
                        lowest values.")),
              tags$p("The maps will also mark the counties in each state, or
-                    the states in the state map, with the highest and lowest values.")
+                    the states in the state map, with the highest and lowest values."),
+             
+             tags$p("Code used to create this app is available", a("here.",href ="https://github.com/seitu2/unemployment_map/"))
+             
              
     
     ),
